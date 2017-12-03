@@ -13,7 +13,6 @@ $( document ).ready(function() {
         scrollTop: $("#"+x+"_target").offset().top
       },1000);
        $(this).siblings().removeClass('active').end().addClass('active');
-       $('#menu').removeClass('menuact');
      })
 
     $(window).on('scroll',function () {
